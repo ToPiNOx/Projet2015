@@ -24,7 +24,6 @@ public class stockStats {
 	
 	/**
 	 * Constructeur 3 arguments.
-	 * 
 	 * @param j Nom Joueur.
 	 * @param stat Nom stat incrémenter.
 	 * @param nbr Nombre incrémenter.
@@ -40,8 +39,7 @@ public class stockStats {
 	}
 	
 	/**
-	 * Méthode qui va gérer l'écriture fichier.
-	 * 
+	 * Ce qui va gérer l'écriture fichier.
 	 * @param joueur Nom Joueur.
 	 * @param stat Nom stat incrémenter.
 	 * @param nbr Nombre incrémenter. 
@@ -94,8 +92,7 @@ public class stockStats {
 	}
 	
 	/**
-	 * Méthode : conserver fichier texte d'une partie à une autre.
-	 * 
+	 * conserver fichier texte d'une partie à une autre. 
 	 * @param joueur Nom joueur.
 	 */
 	public static void majFichier(String joueur)
@@ -129,9 +126,9 @@ public class stockStats {
 			
 			C.close();
 		}
-		catch (Exception e) 
+		catch (Exception x) 
 		{
-			System.out.println(e.toString());
+			System.out.println(x.toString());
 		} 
 	}
 }
