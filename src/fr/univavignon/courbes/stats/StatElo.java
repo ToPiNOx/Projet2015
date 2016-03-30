@@ -1,4 +1,4 @@
-/*package fr.univavignon.courbes.stats;
+package fr.univavignon.courbes.stats;
 
 public class StatElo 
 {
@@ -187,4 +187,4 @@ public class StatElo
 	System.out.println("nouvel elo de E = " + newEloE + "\n");
 	System.out.println("nouvel elo de F = " + newEloF + "\n");
 	
-}*/
+}
